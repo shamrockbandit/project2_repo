@@ -1,0 +1,17 @@
+Visualizations
+
+Types
+Stats
+Star-Rating system for Stats
+Bar Graph
+
+First Page:
+Dropdown Menu
+Pokemon identified by their ID
+
+SEcond Page:
+Pivot Table
+
+Third Page:
+Sequences Sunburst
+Dropdown Menu of Generations

@@ -1,4 +1,4 @@
-CREATE TABLE poke_data(
+CREATE TABLE IF NOT EXISTS "poke_data"(
 	poke_ID INT NOT NULL,
 	poke_name VARCHAR NOT NULL,
 	poke_gen INT NOT NULL,
@@ -31,4 +31,9 @@ CREATE TABLE poke_data(
 	ghost FLOAT NOT NULL,
 	fairy FLOAT NOT NULL,
 	dragon FLOAT NOT NULL
+	image VARCHAR NOT NULL,
+	weakness1 VARCHAR,
+	weakness2 VARCHAR,
+	weakness3 VARCHAR,
+	weakness4 VARCHAR
 );

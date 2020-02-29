@@ -14,7 +14,7 @@ import datetime as dt
 from sqlalchemy import create_engine
 import psycopg2
 import pandas as pd
-Database_URI = "postgres+psycopg2://postgres:postgres@localhost/Pokemon"
+Database_URI = "postgres+psycopg2://postgres:1128based@localhost/Pokemon"
 engine = create_engine(Database_URI)
 
 data = pd.read_sql("SELECT * FROM poke_data", engine).to_json(orient='records')
@@ -39,16 +39,12 @@ def get_data():
 def secPage():
     return render_template("data.html")
 
-@app.route("/append",methods=["GET","POST"])
-def namefilter():
+@app.route("/individual")
 
-    PokemonName = request.form["pokemon_name"]
+def pokeData():
+    
 
-    print(PokemonName)
-
-
-
-    return render_template('page2.html')
+    return render_template('index_individual.html')
 
 
 if __name__ == '__main__':

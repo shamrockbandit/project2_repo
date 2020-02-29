@@ -46,6 +46,10 @@ def pokeData():
 
     return render_template('index_individual.html')
 
+@app.route("/sunburst")
+def sunburst():
+    return render_template('sunburst.html')
+
 
 if __name__ == '__main__':
     app.run(debug=True)

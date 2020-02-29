@@ -3,6 +3,198 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
  */
+/*page 2*/
+body {
+  background: url('https://firebasestorage.googleapis.com/v0/b/zinggrid-examples.appspot.com/o/fire-emoji%2Fcartographer.png?alt=media&token=ea48c8dd-2d9a-4365-b54e-564b6ac8a0e8');
+  padding: 20px;
+}
+
+zing-grid {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 12px;
+  border: 0;
+  background: none;
+  --theme-color-primary: #E57E4C;
+}
+
+zg-caption {
+  padding: 20px;
+  background: #f12711;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border: 0;
+}
+
+zg-caption h1 {
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+zg-caption h2 {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+zg-caption {
+  padding: 20px;
+  background: #f12711;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border: 0;
+}
+
+zing-grid zing-grid zg-caption {
+  background: #f12711;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 6px 6px 0 0;
+  -webkit-border-radius: 6px 6px 0 0;
+  -moz-border-radius: 6px 6px 0 0;
+  border: 0;
+  padding: 5px;
+  height: 40px;
+}
+
+zing-grid zing-grid zg-caption h1 {
+  font-size: 13px;
+  margin-top: -25px;
+}
+
+zg-head-cell {
+  font-size: 12px;
+	padding: 0;
+  background: none;
+}
+
+zing-grid zing-grid zg-head {
+  margin-bottom: -10px;
+  border-bottom: none;
+  background: none;
+}
+
+zing-grid zing-grid zg-head-cell {
+  font-size: 11px;
+  padding-left: 10px;
+  background: #3d3c3c;
+  color: #ffffff;
+  height: 30px;
+  margin-bottom: -10px;
+}
+
+zing-grid[layout="row"] zg-head zg-row {
+  background: none;
+  margin-bottom: -5px;
+}
+
+zg-cell {
+  padding: 8px;
+}
+
+zg-body[layout="card"] {
+  --zg-card-columns: 33.3%;
+  background: url('https://firebasestorage.googleapis.com/v0/b/zinggrid-examples.appspot.com/o/fire-emoji%2Fcartographer.png?alt=media&token=ea48c8dd-2d9a-4365-b54e-564b6ac8a0e8');
+	padding: 10px 0;
+}
+
+zg-body[layout="card"] zg-row {
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border: 0;
+  align-content: flex-start;
+  margin-bottom: 10px;
+}
+
+zg-body[layout="card"] zg-row zg-cell {
+  border: none;
+}
+
+.brand-name {
+	font-size: 22px;
+  margin-top: -2px;
+  margin-bottom: -10px;
+  color: #d82e08;
+}
+
+zing-grid zing-grid zg-column:first-child {
+ 	width: 60%;
+}
+
+img {
+ width: 25%;
+  margin: 0 auto;
+}
+
+zg-column[layout="row"] {
+  width: 50%;
+}
+
+zing-grid[layout="row"] {
+  border: 0px solid #ddd;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+ 	font-size: 10px;
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  border: none;
+}
+
+zg-body[layout="row"] zg-row {
+  border-bottom: 1px solid #ddd;
+  height: 25px;
+}
+
+zg-body[layout="row"] zg-row:last-child {
+  border-bottom: 0;
+}
+
+[viewport="mobile"] zg-body[layout="card"] {
+  --zg-card-columns: 50%;
+}
+
+zg-footer {
+  display: flex;
+  color: #ffffff;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: ;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border: 0;
+  background: #f12711;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+zg-footer a {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+zing-grid zing-grid zg-footer {
+  display: none;
+}
+
+
+#userInput {
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+
+
+/*page2*/
+
+
  body {
     overflow-x: hidden;
   }

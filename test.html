@@ -1,0 +1,36 @@
+<div class="container-fluid">
+    <h1 class="mt-4">Build Your Team!</h1>
+    
+    <form action="/append" method="POST">
+  <!-- Creating a search bar for the user to select the Pokemon -->
+  <h6>Pokemon: <input type="text" name="pokemon_name" placeholder="Enter the Pokemon Name..." id="userInput">
+    <button type="submit"><i class="fa fa-search"></i></button></h6>
+  </form>
+
+    <zing-grid src="https://zinggrid-examples.firebaseio.com/fire-emojis"
+    layout="card"
+    layout-controls="disabled"
+    gridlines="both"
+    viewport-types = '{ "mobile": "200" }'>
+    <zg-colgroup>
+      <zg-column index="company" header="Brand">
+        <h2 class="brand-name">[[index.company]]</h2>
+      </zg-column>
+      <zg-column type="image" index="emojiImg" header=" "></zg-column>
+      <zg-column index="pastVersions" header=" " renderer="_renderInnerGrid" width="100%">
+        <template>
+          <zing-grid layout="row"
+            layout-controls="enabled">
+            <zg-caption>
+              <h1>Past Versions</h1>
+            </zg-caption>
+            <zg-colgroup>
+              <zg-column index="os" header="Release"></zg-column>
+              <zg-column index="emojiImg" header="Emoji" type="image"></zg-column>
+            </zg-colgroup>
+          </zing-grid>
+        </template> -->
+      </zg-column>
+    </zg-colgroup>
+  </zing-grid>
+</div>

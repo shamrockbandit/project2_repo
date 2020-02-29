@@ -8,7 +8,7 @@ from sqlalchemy import create_engine, func
 
 from flask import Flask, jsonify,render_template,request,redirect
 
-from flask_sqlalchemy import SQLAlchemy
+
 import datetime as dt
 
 from sqlalchemy import create_engine

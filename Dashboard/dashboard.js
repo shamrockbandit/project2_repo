@@ -1,7 +1,7 @@
 // Create division for dashboard design
-d3.select("body")
-  .insert("div")
-      .attr("class", "dashboard");
+// d3.select("body")
+//   .insert("div")
+//       .attr("class", "dashboard");
 
 // // Insert Sidebar Component
 // d3.select(".dashboard")

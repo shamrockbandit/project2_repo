@@ -45,7 +45,7 @@
     
           <!-- Nav Item - Dashboard -->
           <li class="nav-item">
-            <a class="nav-link" href="index.html">
+            <a class="nav-link" href="/">
               <i class="fas fa-fw fa-tachometer-alt"></i>
               <span>Dashboard</span></a>
           </li>
@@ -69,7 +69,7 @@
     
           <!-- Nav Item - Pages Collapse Menu -->
           <li class="nav-item">
-            <a class="nav-link" href="charts.html">
+            <a class="nav-link" href="/raw_data">
               <i class="fas fa-fw fa-chart-area"></i>
               <span>Raw Data</span></a>
           </li>
@@ -83,27 +83,44 @@
           <!-- Main Content -->
           <div id="content">
     
-            <!-- Begin Page Content -->
+            <!-- Begin Page Content/ Container Fluid -->
             <div class="container-fluid">
     
               <!-- Adding a break -->
               <br>
+
               <!-- Page Heading -->
               <h1 class="h3 mb-4 text-gray-800">Pokemon Data</h1>
 
-              <!-- DataTales Example -->
-          <div class="card shadow mb-4">
-            <div class="card-header py-3">
-              <h6 class="m-0 font-weight-bold text-primary">Pokemons</h6>
-            </div>
-            <div class="card-body">
-              <div class="table-responsive">
-                <table class="table table-striped" id="dataTable" width="100%" cellspacing="0">
+              <!-- Raw Data Table -->
+              <div class="card shadow mb-4">
 
-                </table>
+                <!-- Table Header -->
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Pokemons</h6>
+                </div>
+                <!-- End of Table Header -->
+
+                <!-- Card Body of for the Table -->
+                <div class="card-body">
+
+                  <!-- Defining Table class -->
+                  <div class="table-responsive">
+
+                    <!-- Table -->
+                    <table class="table table-striped" id="dataTable" width="100%" cellspacing="0">
+
+                    </table>
+                    <!-- End of Table -->
+
+                  </div>
+                  <!-- End of Table Class -->
+
+                </div>
+                <!-- End of Card Body -->
+
               </div>
-            </div>
-          </div>
+              <!-- End of Table -->
     
             </div>
             <!-- /.container-fluid -->
@@ -124,7 +141,7 @@
         </div>
         <!-- End of Content Wrapper -->
     
-      </div>
+    </div>
 
 
 
@@ -155,57 +172,43 @@
 
   <!-- Page level custom scripts -->
   <script src="static/js/demo/datatables-demo.js"></script>
+
+  <!-- Script Tag -->
   <script>
     d3.json('/get_data').then(function(info){
 
-        console.log(info)
+      // Reading data from the api
+      var data = info
 
-        var data = info
+      // Reading column names for the table
+      var keys = d3.keys(data[0])
 
-        var names = data[0].poke_name
-        var keys = d3.keys(data[0])
+      // Appending Column head and table body
+      var table = d3.select("table")
+      var thead = table.append('thead')
+      var tbody = table.append('tbody')
 
-        console.log(keys)
+      // Appending column headers
+      thead.append('tr')
+        .selectAll('th')
+        .data(keys)
+        .enter()
+        .append('th')
+        .text(function(keys){return keys})
 
-        console.log(names)
-        var table = d3.select("table")
-        var thead = table.append('thead')
-        var tbody = table.append('tbody')
+      // Appending data to the table
+      data.forEach((getData) => {
 
-        thead.append('tr')
-          .selectAll('th')
-          .data(keys)
-          .enter()
-          .append('th')
-          .text(function(keys){return keys})
-        
-        
-
-        data.forEach((getData) => {
-
-          var rows = tbody.append('tr')
-          Object.entries(getData).forEach(function([key,value]){
-            var cells = rows.append('td')
-            console.log(key, value)
-            cells.text(value)
-          })
+        var rows = tbody.append('tr')
+        Object.entries(getData).forEach(function([key,value]){
+          var cells = rows.append('td')
+          console.log(key, value)
+          cells.text(value)
         })
-        // var tbody = d3.select("tbody")
-
-        // data.forEach((getData) => {
-
-        // })
-        // data.forEach((getData) => {
-        //   var row = tbody.append("tr")
-
-        //   Object.entries(getData).forEach(function([key, value]){
-        //     var cell = row.append("td")
-        //     // console.log(key,value)
-        //     cell.text(value)
-        //   })
-        // })
+      })
     })
   </script>
+  <!-- End of Script -->
 
 </body>
 

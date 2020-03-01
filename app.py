@@ -13,7 +13,7 @@ import datetime as dt
 from sqlalchemy import create_engine
 import psycopg2
 import pandas as pd
-Database_URI = "postgres+psycopg2://postgres:1128based@localhost/Pokemon"
+Database_URI = "postgres+psycopg2://postgres:postgres@localhost/Pokemon"
 engine = create_engine(Database_URI)
 
 data = pd.read_sql("SELECT * FROM poke_data", engine).to_json(orient='records')

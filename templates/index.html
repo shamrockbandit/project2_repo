@@ -1,36 +1,255 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Pokemon </title>
+
+<!-- DEPENDENCIES -->
+<!-- DO NOT DELETE -->
+
+  <!-- DASHBOARD FONTS @BRITTANY -->
+  <!-- Custom fonts for this template-->
+  <link href="static/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- DASHBOARD CSS @BRITTANY -->
+  <!-- Custom styles for this template-->
+  <link href="static/css/sb-admin-2.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
     
-        <title>Pokemon Dashboard</title>
-    </head>
-    <body>
-        <h1>Hello, pokeworld!</h1>
-        <h1 class="display-1">Display 1</h1>
+          <!-- Sidebar - Brand -->
+          <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+            <div class="sidebar-brand-icon rotate-n-15">
+              <i class="fas fa-laugh-wink"></i>
+            </div>
+            <div class="sidebar-brand-text mx-3">Pokemon World</div>
+          </a>
+    
+          <!-- Divider -->
+          <hr class="sidebar-divider my-0">
+    
+          <!-- Nav Item - Dashboard -->
+          <li class="nav-item">
+            <a class="nav-link" href="/">
+              <i class="fas fa-fw fa-tachometer-alt"></i>
+              <span>Dashboard</span></a>
+          </li>
+    
+          <!-- Divider -->
+          <hr class="sidebar-divider">
+    
+          <!-- Nav Item - Pages Collapse Menu -->
+          <li class="nav-item">
+            <a class="nav-link" href="/individual">
+              <i class="fas fa-fw fa-chart-area"></i>
+              <span>Individual View</span></a>
+          </li>
 
-        <p class="lead">
-            Welcome to Pokeworld! This is example text: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.
-        </p>
+          <!-- Nav Item - Utilities Collapse Menu -->
+          <li class="nav-item">
+            <a class="nav-link" href="charts.html">
+              <i class="fas fa-fw fa-chart-area"></i>
+              <span>Sunburst</span></a>
+          </li>
+    
+          <!-- Nav Item - Pages Collapse Menu -->
+          <li class="nav-item">
+            <a class="nav-link" href="/raw_data">
+              <i class="fas fa-fw fa-chart-area"></i>
+              <span>Raw Data</span></a>
+          </li>
+    
+        </ul>
+        <!-- End of Sidebar -->
+    
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+        
+             <!-- Main Content -->
+          <div id="content">
+    
+            <!-- Begin Page Content/ Container Fluid -->
+            <div class="container-fluid">
+            
+                <br>
+             <!-- Page Heading -->
+          <h1 class="h1 mb-2 text-gray-800">Welcome to the Pokemon World</h1>
+        
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <!-- Content Row -->
+          <div class="row">
 
-        <blockquote class="blockquote">
-            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-        </blockquote>
+            <div class="col-xl-12 col-lg-12">
+
+              <!-- Area Chart -->
+              <div class="card shadow mb-6">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Generation Chart</h6>
+                </div>
+                <div class="card-body">
+                  <div class="chart-area" id='bar'>
+                    <!-- <canvas id="bar"></canvas> -->
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+            </div>
+            <!-- End of Container Fluid -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+          
+          <!-- Footer -->
+          <footer class="sticky-footer bg-white">
+            <div class="container my-auto">
+              <div class="copyright text-center my-auto">
+                <span>Copyright &copy; Your Website 2019</span>
+              </div>
+            </div>
+          </footer>
+          <!-- End of Footer -->
+    
+        </div>
+        <!-- End of Content Wrapper -->
+    
+    </div>
 
 
 
 
-        <!-- Bootstrap Support Scripts -->
-        <!-- Do not delete -->
-        <!-- Script order: jQuery first, then Popper.js, then Bootstrap JS  -->
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-    </body>
+
+
+
+<!-- DEPENDENCIES -->
+<!-- DO NOT DELETE -->
+
+ <!-- Bootstrap core JavaScript-->
+ <script src="static/vendor/jquery/jquery.min.js"></script>
+ <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+ <!-- Core plugin JavaScript-->
+ <script src="static/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+ <!-- Custom scripts for all pages-->
+ <script src="static/js/sb-admin-2.min.js"></script>
+
+   <!-- Page level plugins -->
+   <script src="static/vendor/datatables/jquery.dataTables.min.js"></script>
+   <script src="static/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+  <!-- D3 Support Script -->
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+
+  <!-- Script for the Plot -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+  <!-- Page level script -->
+  <script>
+      d3.json('/get_data').then(function(data){
+
+        var generation = ['Generation 1', 'Generation 2', "Generation 3", 'Generation 4', 'Generation 5', 'Generation 6', 'Generation 7'];
+        var gen_count = [];
+
+
+        var gen1 = 0;
+        var gen2 = 0;
+        var gen3 = 0;
+        var gen4 = 0;
+        var gen5 = 0;
+        var gen6 = 0;
+        var gen7 = 0;
+
+        for(var j = 0; j < data.length; j++){
+         
+            if(data[j].poke_gen == '1'){
+                gen1 += 1
+
+            }
+            else if(data[j].poke_gen == '2'){
+                gen2 += 1
+
+            }
+            else if(data[j].poke_gen == '3'){
+                gen3 += 1
+
+            }
+            else if(data[j].poke_gen == '4'){
+                gen4 += 1
+
+            }
+            else if(data[j].poke_gen == '5'){
+                gen5 += 1
+
+            }
+            else if(data[j].poke_gen == '6'){
+                gen6 += 1
+
+            }
+            else{
+                gen7 += 1
+            }
+
+
+        }
+
+        gen_count.push(gen1)
+        gen_count.push(gen2)
+        gen_count.push(gen3)
+        gen_count.push(gen4)
+        gen_count.push(gen5)
+        gen_count.push(gen6)
+        gen_count.push(gen7)
+
+        console.log(gen_count)
+
+        var trace = {
+            x:generation,
+            y:gen_count,
+            type: 'bar'
+        };
+
+        var data = [trace];
+
+        var layout = {
+            showlegend: false,
+            bargap: 0.05,
+            yaxis:{
+                range: [0, 170]
+            }
+        };
+
+        Plotly.newPlot('bar', data, layout);
+
+    })
+  </script>
+
+</body>
+
 </html>

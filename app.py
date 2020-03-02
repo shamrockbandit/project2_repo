@@ -27,7 +27,7 @@ def welcome():
     """List of all the available api routes."""
     # Total =  Pokemon.query.count()
     
-    return render_template("dashboard.html")
+    return render_template("index.html")
 
 @app.route("/get_data")
 def get_data():

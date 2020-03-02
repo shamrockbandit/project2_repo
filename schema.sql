@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS "poke_data"(
 	dark FLOAT NOT NULL,
 	ghost FLOAT NOT NULL,
 	fairy FLOAT NOT NULL,
-	dragon FLOAT NOT NULL
+	dragon FLOAT NOT NULL,
 	image VARCHAR NOT NULL,
 	weakness1 VARCHAR,
 	weakness2 VARCHAR,

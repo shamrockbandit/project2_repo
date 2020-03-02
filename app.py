@@ -8,6 +8,7 @@ from sqlalchemy import create_engine, func
 
 from flask import Flask, jsonify,render_template,request,redirect
 
+
 import datetime as dt
 
 from sqlalchemy import create_engine
@@ -44,6 +45,10 @@ def pokeData():
     
 
     return render_template('index_individual.html')
+
+@app.route("/sunburst")
+def sunburst():
+    return render_template('sunburst.html')
 
 
 if __name__ == '__main__':

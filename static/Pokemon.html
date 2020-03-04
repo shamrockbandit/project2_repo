@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- saved from url=(0030)http://127.0.0.1:5000/gen_type -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<head>
-
-  <meta charset="utf-8">
+  
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
@@ -16,20 +15,21 @@
 
   <!-- DASHBOARD FONTS @BRITTANY -->
   <!-- Custom fonts for this template-->
-  <link href="static/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link href="./Pokemon_files/all.min.css" rel="stylesheet" type="text/css">
+  <link href="./Pokemon_files/css" rel="stylesheet">
 
   <!-- DASHBOARD CSS @BRITTANY -->
   <!-- Custom styles for this template-->
-  <link href="static/css/sb-admin-2.min.css" rel="stylesheet">
-  <script src="static/dist/Chart.min.js"></script>
+  <link href="./Pokemon_files/sb-admin-2.min.css" rel="stylesheet">
+  <script src="./Pokemon_files/Chart.min.js.download"></script>
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./Pokemon_files/bootstrap.min.css">
+  <script src="./Pokemon_files/jquery.min.js.download"></script>
+  <script src="./Pokemon_files/bootstrap.min.js.download"></script>
 
 
-</head>
+<style id="plotly.js-style-global"></style><style type="text/css">/* Chart.js */
+@keyframes chartjs-render-animation{from{opacity:.99}to{opacity:1}}.chartjs-render-monitor{animation:chartjs-render-animation 1ms}.chartjs-size-monitor,.chartjs-size-monitor-expand,.chartjs-size-monitor-shrink{position:absolute;direction:ltr;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1}.chartjs-size-monitor-expand>div{position:absolute;width:1000000px;height:1000000px;left:0;top:0}.chartjs-size-monitor-shrink>div{position:absolute;width:200%;height:200%;left:0;top:0}</style></head>
 
 <body>
 
@@ -39,7 +39,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
     
           <!-- Sidebar - Brand -->
-          <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/">
+          <a class="sidebar-brand d-flex align-items-center justify-content-center" href="http://127.0.0.1:5000/">
             <div class="sidebar-brand-icon rotate-n-15">
               <i class="fas fa-laugh-wink"></i>
             </div>
@@ -51,7 +51,7 @@
     
           <!-- Nav Item - Dashboard -->
           <li class="nav-item">
-            <a class="nav-link" href="/">
+            <a class="nav-link" href="http://127.0.0.1:5000/">
               <i class="fas fa-fw fa-tachometer-alt"></i>
               <span>Dashboard</span></a>
           </li>
@@ -61,21 +61,21 @@
     
           <!-- Nav Item - Pages Collapse Menu -->
           <li class="nav-item">
-            <a class="nav-link" href="/individual">
+            <a class="nav-link" href="http://127.0.0.1:5000/individual">
               <i class="fas fa-fw fa-chart-area"></i>
               <span>Individual View</span></a>
           </li>
 
           <!-- Nav Item - Utilities Collapse Menu -->
           <li class="nav-item">
-            <a class="nav-link" href="/gen_type">
+            <a class="nav-link" href="http://127.0.0.1:5000/gen_type">
               <i class="fas fa-fw fa-chart-area"></i>
               <span>Type by Generation</span></a>
           </li>
 
           <!-- Nav Item - Pages Collapse Menu -->
           <li class="nav-item">
-            <a class="nav-link" href="/raw_data">
+            <a class="nav-link" href="http://127.0.0.1:5000/raw_data">
               <i class="fas fa-fw fa-chart-area"></i>
               <span>Raw Data</span></a>
           </li>
@@ -103,7 +103,7 @@
           <!-- Content Row -->
           <div class="row">
 
-            <div class="col-xl-12 col-lg-12" >
+            <div class="col-xl-12 col-lg-12">
 
               <!-- Area Chart -->
               <div class="card shadow mb-2">
@@ -111,8 +111,8 @@
                   <h6 class="m-0 font-weight-bold text-primary">Generation Chart</h6>
                 </div>
                 <div class="card-body">
-                  <div class="chart-area">
-                    <canvas id="chart" ></canvas>
+                  <div class="chart-area" height="600px"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
+                    <canvas id="chart" style="display: block; height: 600px; width: 1322px;" width="1652" height="750" class="chartjs-render-monitor"></canvas>
                   </div>
                 </div>
               </div>
@@ -131,7 +131,7 @@
           <footer class="sticky-footer bg-white">
             <div class="container my-auto">
               <div class="copyright text-center my-auto">
-                <span>Copyright &copy; Your Website 2019</span>
+                <span>Copyright © Your Website 2019</span>
               </div>
             </div>
           </footer>
@@ -153,25 +153,25 @@
 <!-- DO NOT DELETE -->
 
  <!-- Bootstrap core JavaScript-->
- <script src="static/vendor/jquery/jquery.min.js"></script>
- <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+ <script src="./Pokemon_files/jquery.min.js(1).download"></script>
+ <script src="./Pokemon_files/bootstrap.bundle.min.js.download"></script>
 
  <!-- Core plugin JavaScript-->
- <script src="static/vendor/jquery-easing/jquery.easing.min.js"></script>
+ <script src="./Pokemon_files/jquery.easing.min.js.download"></script>
 
  <!-- Custom scripts for all pages-->
- <script src="static/js/sb-admin-2.min.js"></script>
+ <script src="./Pokemon_files/sb-admin-2.min.js.download"></script>
 
    <!-- Page level plugins -->
-   <script src="static/vendor/datatables/jquery.dataTables.min.js"></script>
-   <script src="static/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+   <script src="./Pokemon_files/jquery.dataTables.min.js.download"></script>
+   <script src="./Pokemon_files/dataTables.bootstrap4.min.js.download"></script>
 
   <!-- D3 Support Script -->
-  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="./Pokemon_files/d3.v5.min.js.download"></script>
 
   <!-- Script for the Plot -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="./Pokemon_files/d3.js.download"></script>
+  <script src="./Pokemon_files/plotly-latest.min.js.download"></script>
 
 
   <!-- Page level script -->
@@ -378,6 +378,6 @@
 });
   </script>
 
-</body>
 
-</html>
+
+</body></html>

@@ -46,7 +46,7 @@ def pokeData():
 
     return render_template('index_individual.html')
 
-@app.route("/Pokemon Type by Generation")
+@app.route("/gen_type")
 def typeByGen():
     return render_template("Pokemon_Type_Bar_Chart.html")
 

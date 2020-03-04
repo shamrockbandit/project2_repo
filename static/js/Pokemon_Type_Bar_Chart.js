@@ -1,16 +1,15 @@
-// BRITANY - Changed data source to flash api
 d3.json('/get_data').then((data) =>{
    
     // Data check to ensure all data is coming through
     console.log(data);
-
-
+ 
+ 
     // Chart.js accepts simple arrays of data
     // Data needs to be broken down into Count of Pokemon per Generation Per Type
-
+ 
     // Variable for original pokemon data
     var pokedata = data
-
+ 
     // Arrays to hold data for chart
     var Normal = []
     var Water = []
@@ -30,34 +29,35 @@ d3.json('/get_data').then((data) =>{
     var Dragon = []
     var Fairy = []
     var Ghost = []
-
-
+ 
+ 
     // Loops through Generations 1 through 8
     for (i = 1; i < 8; i++){
-
+ 
         // Data filtered by generation
-        var gen = pokedata.filter((gen) => gen.generation == i)
-
+        var gen = pokedata.filter((gen) => gen.poke_gen == i)
+ 
+ 
             // Data filtered by pokemon type
-            var gen_norm = gen.filter((type) => type.type1 == 'normal')
-            var gen_water = gen.filter((type) => type.type1 == 'water');
-            var gen_grass = gen.filter((type) => type.type1 == 'grass');
-            var gen_fire = gen.filter((type) => type.type1 == 'fire');
-            var gen_elec = gen.filter((type) => type.type1 == 'electric');
-            var gen_ice = gen.filter((type) => type.type1 == 'ice');
-            var gen_ground = gen.filter((type) => type.type1 == 'ground');
-            var gen_flying = gen.filter((type) => type.type1 == 'flying');
-            var gen_poi = gen.filter((type) => type.type1 == 'poison');
-            var gen_fight = gen.filter((type) => type.type1 == 'fighting');
-            var gen_dark = gen.filter((type) => type.type1 == 'dark');
-            var gen_psy = gen.filter((type) => type.type1 == 'psychic');
-            var gen_bug = gen.filter((type) => type.type1 == 'bug');
-            var gen_rock = gen.filter((type) => type.type1 == 'rock');
-            var gen_steel = gen.filter((type) => type.type1 == 'steel');
-            var gen_drag = gen.filter((type) => type.type1 == 'dragon');
-            var gen_fair = gen.filter((type) => type.type1 == 'fairy');
-            var gen_gho = gen.filter((type) => type.type1 == 'ghost');
-
+            var gen_norm = gen.filter((type) => type.poke_type1 == 'normal')
+            var gen_water = gen.filter((type) => type.poke_type1 == 'water');
+            var gen_grass = gen.filter((type) => type.poke_type1 == 'grass');
+            var gen_fire = gen.filter((type) => type.poke_type1 == 'fire');
+            var gen_elec = gen.filter((type) => type.poke_type1 == 'electric');
+            var gen_ice = gen.filter((type) => type.poke_type1 == 'ice');
+             var gen_ground = gen.filter((type) => type.poke_type1 == 'ground');
+             var gen_flying = gen.filter((type) => type.poke_type1 == 'flying');
+            var gen_poi = gen.filter((type) => type.poke_type1 == 'poison');
+            var gen_fight = gen.filter((type) => type.poke_type1 == 'fighting');
+            var gen_dark = gen.filter((type) => type.poke_type1 == 'dark');
+            var gen_psy = gen.filter((type) => type.poke_type1 == 'psychic');
+            var gen_bug = gen.filter((type) => type.poke_type1 == 'bug');
+            var gen_rock = gen.filter((type) => type.poke_type1 == 'rock');
+            var gen_steel = gen.filter((type) => type.poke_type1 == 'steel');
+            var gen_drag = gen.filter((type) => type.poke_type1 == 'dragon');
+            var gen_fair = gen.filter((type) => type.poke_type1 == 'fairy');
+            var gen_gho = gen.filter((type) => type.poke_type1 == 'ghost');
+ 
             // Used push function to append COUNT of pokemon per type into appropriate array
             // This provides counts of each type as the generations loop
             Normal.push(Object.keys(gen_norm).length)
@@ -79,13 +79,13 @@ d3.json('/get_data').then((data) =>{
             Fairy.push(Object.keys(gen_fair).length)
             Ghost.push(Object.keys(gen_gho).length)
         };
-
+ 
         
         // Chart Labels and Title
         var gen_labels = ["Gen I","Gen II","Gen III","Gen IV","Gen V","Gen VI","Gen VII"]
         var chart_title = "Count of Pokemon Type by Generation"
-
-
+ 
+ 
         // Chart.js script
         var ctx = document.getElementById("chart").getContext('2d');
         var myChart = new Chart(ctx, {
@@ -197,4 +197,4 @@ d3.json('/get_data').then((data) =>{
                 legend: { position: 'bottom' },
             }
     });
-});
+ });

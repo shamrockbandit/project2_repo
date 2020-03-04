@@ -28,6 +28,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
+  <style>
+    #a-chart{
+      height: 60rem
+    }
+  </style>
 
 </head>
 
@@ -106,12 +111,12 @@
             <div class="col-xl-12 col-lg-12" >
 
               <!-- Area Chart -->
-              <div class="card shadow mb-2">
+              <div class="card shadow mb-4">
                 <div class="card-header py-3">
                   <h6 class="m-0 font-weight-bold text-primary">Generation Chart</h6>
                 </div>
                 <div class="card-body">
-                  <div class="chart-area">
+                  <div class="chart-area" id='a-chart'>
                     <canvas id="chart" ></canvas>
                   </div>
                 </div>

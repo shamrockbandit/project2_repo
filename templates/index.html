@@ -33,8 +33,13 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
-}
+  width: 80%;
+  }
+
+  #g-chart{
+      height: 60rem
+    }
+ 
 	</style>
 
 </head>
@@ -114,9 +119,12 @@
             <div class="col-xl-12 col-lg-12" >
 
                 <!-- GIF Area -->
-                <div class="card shadow mb-4">
+                <div >
                     <img src='static/giphy.gif' id = 'gif' class = "img-responsive" alt="Responsive image"> 
                 </div>
+
+                <br>
+                <br>
 
               <!-- Area Chart -->
               <div class="card shadow mb-4">
@@ -124,7 +132,7 @@
                   <h6 class="m-0 font-weight-bold text-primary">Generation Chart</h6>
                 </div>
                 <div class="card-body">
-                  <div class="chart-area">
+                  <div class="chart-area" id='g-chart'>
                     <canvas id="bar" width= "100px" height= '100px'></canvas>
                   </div>
                 </div>

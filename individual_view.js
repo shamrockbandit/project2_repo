@@ -1,54 +1,25 @@
-d3.json("/get_data", function(data){})
-console.log(data);
+d3.json('/get_data').then(function(data){
+          
+       
+  console.log(data)
+d3.select("#testButton").on("click", function() {
+var myImg = document.getElementById('poke-image');
+console.log(myImg);
+var userPokename = d3.select("#p_name").node().value;
+var filteredData = data.filter(row => row.poke_name === userPokename); 
+document.querySelector("#hp-data").innerHTML = filteredData[0].hp
+document.querySelector("#attack-data").innerHTML = filteredData[0].attack
+document.querySelector("#defense-data").innerHTML = filteredData[0].defense
+document.querySelector("#sp-atk-data").innerHTML = filteredData[0].sp_attack
+document.querySelector("#sp-def-data").innerHTML = filteredData[0].sp_defense
+document.querySelector("#speed-data").innerHTML = filteredData[0].speed
+document.querySelector("#base-stat-data").innerHTML = filteredData[0].base_total
+document.querySelector("#poke-name").innerHTML = filteredData[0].poke_name
+document.querySelector("#ability1-data").innerHTML = filteredData[0].poke_ability1
+document.querySelector("#ability2-data").innerHTML = filteredData[0].poke_ability2
+document.querySelector("#type1").innerHTML = "[" + filteredData[0].poke_type1
+document.querySelector("#type2").innerHTML = "/ " + filteredData[0].poke_type2 + "]"
+myImg.src = filteredData[0].image;
 
-var svgWidth = 960;
-var svgHeight = 660;
-
-var chartMargin = {
-    top: 30,
-    right: 30,
-    bottom: 30,
-    left: 30
-  };
-
-  var chartWidth = svgWidth - chartMargin.left - chartMargin.right;
-  var chartHeight = svgHeight - chartMargin.top - chartMargin.bottom;
-
-
-var svg = d3
-    .select("body")
-    .append("svg")
-    .attr("height", svgHeight)
-    .attr("width", svgWidth);
-
-var baseBox = svg.append("rect")
-    .attr("width", svgWidth - 30)
-    .attr("height", 350)
-    .attr("x", chartMargin.left)
-    .attr("stroke", "black")
-    .attr("stroke-width", "20")
-    .attr("fill", "#0055cc");
-
-d3.csv("./pokedata_cleaned.csv").then(function(pokeData) {
-
-    // console.log(pokeData);
-    // var pokedex_number = pokeData.map(data => data.pokedex_number);
-    // console.log("number", pokedex_number);
-    // var name = pokeData.map(data => data.name);
-    // console.log("name", name);
-    // var base_total = pokeData.map(data => data.base_total);
-    // console.log("base_stat", base_total);
-
-    pokeData.forEach(function(i) {
-        svg.append("rect")
-        .attr("width", base_total[i])
-        .attr("height", 10)
-        .attr("x", chartMargin.left + 500)
-        .attr("y", chartMargin.top + 50)
-        .attr("fill", "red")
-
-      });
-
-  }).catch(function(error) {
-    console.log(error);
-  });
+})
+})

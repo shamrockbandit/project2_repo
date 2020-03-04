@@ -50,10 +50,6 @@ def pokeData():
 def typeByGen():
     return render_template("Pokemon_Type_Bar_Chart.html")
 
-@app.route("/sunburst")
-def sunburst():
-    return render_template('sunburst.html')
-
 
 if __name__ == '__main__':
     app.run(debug=True)

@@ -1,0 +1,1269 @@
+{
+ "name": "flare",
+ "children": [
+  {
+   "name": "First Generation",
+   "children": [
+    {
+     "name": "Normal",
+     "children": [
+      {"name": "AgglomerativeCluster", "size": 22},
+      {"name": "CommunityStructure", "size": 0},
+      {"name": "HierarchicalCluster", "size": 0},
+      {"name": "MergeEdge", "size": 0}
+     ]
+    },
+    {
+      "name": "Water",
+      "children": [
+       {"name": "Squirtle", "size": 1},
+       {"name": "Wartortle", "size": 1},
+       {"name": "Blastoise", "size": 1},
+       {"name": "Psyduck", "size": 1},
+       {"name": "Golduck", "size": 1},
+       {"name": "Poliwag", "size": 1},
+       {"name": "Poliwhirl", "size": 1},
+       {"name": "Blastoise", "size": 1},
+       {"name": "Squirtle", "size": 1},
+       {"name": "Wartortle", "size": 1},
+       {"name": "Blastoise", "size": 1},
+       {"name": "Squirtle", "size": 1},
+       {"name": "Wartortle", "size": 1},
+       {"name": "Blastoise", "size": 1},
+       {"name": "Psyduck", "size": 1}
+      ]
+     },{
+      "name": "Grass",
+      "children": [
+       {"name": "AgglomerativeCluster", "size": 14},
+       {"name": "CommunityStructure", "size": 0},
+       {"name": "HierarchicalCluster", "size": 0},
+       {"name": "MergeEdge", "size": 0}
+      ]
+     },
+     {
+      "name": "Fire",
+      "children": [
+       {"name": "AgglomerativeCluster", "size": 13},
+       {"name": "CommunityStructure", "size": 0},
+       {"name": "HierarchicalCluster", "size": 0},
+       {"name": "MergeEdge", "size": 0}
+      ]
+     },
+     {
+      "name": "Electric",
+      "children": [
+       {"name": "AgglomerativeCluster", "size": 12},
+       {"name": "CommunityStructure", "size": 0},
+       {"name": "HierarchicalCluster", "size": 0},
+       {"name": "MergeEdge", "size": 0}
+      ]
+     },
+    {
+     "name": "Ice",
+     "children": [
+      {"name": "BetweennessCentrality", "size": 9},
+      {"name": "LinkDistance", "size": 0},
+      {"name": "MaxFlowMinCut", "size": 0},
+      {"name": "ShortestPaths", "size": 0},
+      {"name": "SpanningTree", "size": 0}
+     ]
+    },
+    {
+      "name": "Ground",
+      "children": [
+       {"name": "BetweennessCentrality", "size": 14},
+       {"name": "LinkDistance", "size": 0},
+       {"name": "MaxFlowMinCut", "size": 0},
+       {"name": "ShortestPaths", "size": 0},
+       {"name": "SpanningTree", "size": 0}
+      ]
+     },
+     {
+      "name": "Flying",
+      "children": [
+       {"name": "BetweennessCentrality", "size": 20},
+       {"name": "LinkDistance", "size": 0},
+       {"name": "MaxFlowMinCut", "size": 0},
+       {"name": "ShortestPaths", "size": 0},
+       {"name": "SpanningTree", "size": 0}
+      ]
+     },
+     {
+      "name": "Poison",
+      "children": [
+       {"name": "BetweennessCentrality", "size": 33},
+       {"name": "LinkDistance", "size": 0},
+       {"name": "MaxFlowMinCut", "size": 0},
+       {"name": "ShortestPaths", "size": 0},
+       {"name": "SpanningTree", "size": 0}
+      ]
+     },
+     {
+      "name": "Fighting",
+      "children": [
+       {"name": "BetweennessCentrality", "size": 9},
+       {"name": "LinkDistance", "size": 0},
+       {"name": "MaxFlowMinCut", "size": 0},
+       {"name": "ShortestPaths", "size": 0},
+       {"name": "SpanningTree", "size": 0}
+      ]
+     },
+     {
+      "name": "Dark",
+      "children": [
+       {"name": "BetweennessCentrality", "size": 7},
+       {"name": "LinkDistance", "size": 0},
+       {"name": "MaxFlowMinCut", "size": 0},
+       {"name": "ShortestPaths", "size": 0},
+       {"name": "SpanningTree", "size": 0}
+      ]
+     },
+     {
+      "name": "Psychic",
+      "children": [
+       {"name": "BetweennessCentrality", "size": 15},
+       {"name": "LinkDistance", "size": 0},
+       {"name": "MaxFlowMinCut", "size": 0},
+       {"name": "ShortestPaths", "size": 0},
+       {"name": "SpanningTree", "size": 0}
+      ]
+     },
+     {
+      "name": "Bug",
+      "children": [
+       {"name": "BetweennessCentrality", "size": 12},
+       {"name": "LinkDistance", "size": 0},
+       {"name": "MaxFlowMinCut", "size": 0},
+       {"name": "ShortestPaths", "size": 0},
+       {"name": "SpanningTree", "size": 0}
+      ]
+     },
+     {
+      "name": "Rock",
+      "children": [
+       {"name": "BetweennessCentrality", "size": 11},
+       {"name": "LinkDistance", "size": 0},
+       {"name": "MaxFlowMinCut", "size": 0},
+       {"name": "ShortestPaths", "size": 0},
+       {"name": "SpanningTree", "size": 0}
+      ]
+     },
+     {
+      "name": "Steel",
+      "children": [
+       {"name": "BetweennessCentrality", "size": 6},
+       {"name": "LinkDistance", "size": 0},
+       {"name": "MaxFlowMinCut", "size": 0},
+       {"name": "ShortestPaths", "size": 0},
+       {"name": "SpanningTree", "size": 0}
+      ]
+     },
+     {
+      "name": "Dragon",
+      "children": [
+       {"name": "BetweennessCentrality", "size": 5},
+       {"name": "LinkDistance", "size": 0},
+       {"name": "MaxFlowMinCut", "size": 0},
+       {"name": "ShortestPaths", "size": 0},
+       {"name": "SpanningTree", "size": 0}
+      ]
+     },
+     {
+      "name": "Fairy",
+      "children": [
+       {"name": "BetweennessCentrality", "size": 6},
+       {"name": "LinkDistance", "size": 0},
+       {"name": "MaxFlowMinCut", "size": 0},
+       {"name": "ShortestPaths", "size": 0},
+       {"name": "SpanningTree", "size": 0}
+      ]
+     },
+     {
+      "name": "Ghost",
+      "children": [
+       {"name": "BetweennessCentrality", "size": 4},
+       {"name": "LinkDistance", "size": 0},
+       {"name": "MaxFlowMinCut", "size": 0},
+       {"name": "ShortestPaths", "size": 0},
+       {"name": "SpanningTree", "size": 0}
+      ]
+     }
+   ]
+  },
+  {
+    "name": "Second Generation",
+    "children": [
+      {
+        "name": "Normal",
+        "children": [
+         {"name": "AgglomerativeCluster", "size": 15},
+         {"name": "CommunityStructure", "size": 10},
+         {"name": "HierarchicalCluster", "size": 0},
+         {"name": "MergeEdge", "size": 0}
+        ]
+       },
+       {
+         "name": "Water",
+         "children": [
+          {"name": "AgglomerativeCluster", "size": 18},
+          {"name": "CommunityStructure", "size": 0},
+          {"name": "HierarchicalCluster", "size": 0},
+          {"name": "MergeEdge", "size": 0}
+         ]
+        },{
+         "name": "Grass",
+         "children": [
+          {"name": "AgglomerativeCluster", "size": 10},
+          {"name": "CommunityStructure", "size": 0},
+          {"name": "HierarchicalCluster", "size": 0},
+          {"name": "MergeEdge", "size": 0}
+         ]
+        },
+        {
+         "name": "Fire",
+         "children": [
+          {"name": "AgglomerativeCluster", "size": 10},
+          {"name": "CommunityStructure", "size": 0},
+          {"name": "HierarchicalCluster", "size": 0},
+          {"name": "MergeEdge", "size": 0}
+         ]
+        },
+        {
+         "name": "Electric",
+         "children": [
+          {"name": "AgglomerativeCluster", "size": 8},
+          {"name": "CommunityStructure", "size": 0},
+          {"name": "HierarchicalCluster", "size": 0},
+          {"name": "MergeEdge", "size": 0}
+         ]
+        },
+       {
+        "name": "Ice",
+        "children": [
+         {"name": "BetweennessCentrality", "size": 5},
+         {"name": "LinkDistance", "size": 0},
+         {"name": "MaxFlowMinCut", "size": 0},
+         {"name": "ShortestPaths", "size": 0},
+         {"name": "SpanningTree", "size": 0}
+        ]
+       },
+       {
+         "name": "Ground",
+         "children": [
+          {"name": "BetweennessCentrality", "size": 10},
+          {"name": "LinkDistance", "size": 0},
+          {"name": "MaxFlowMinCut", "size": 0},
+          {"name": "ShortestPaths", "size": 0},
+          {"name": "SpanningTree", "size": 0}
+         ]
+        },
+        {
+         "name": "Flying",
+         "children": [
+          {"name": "BetweennessCentrality", "size": 19},
+          {"name": "LinkDistance", "size": 0},
+          {"name": "MaxFlowMinCut", "size": 0},
+          {"name": "ShortestPaths", "size": 0},
+          {"name": "SpanningTree", "size": 0}
+         ]
+        },
+        {
+         "name": "Poison",
+         "children": [
+          {"name": "BetweennessCentrality", "size": 4},
+          {"name": "LinkDistance", "size": 0},
+          {"name": "MaxFlowMinCut", "size": 0},
+          {"name": "ShortestPaths", "size": 0},
+          {"name": "SpanningTree", "size": 0}
+         ]
+        },
+        {
+         "name": "Fighting",
+         "children": [
+          {"name": "BetweennessCentrality", "size": 3},
+          {"name": "LinkDistance", "size": 0},
+          {"name": "MaxFlowMinCut", "size": 0},
+          {"name": "ShortestPaths", "size": 0},
+          {"name": "SpanningTree", "size": 0}
+         ]
+        },
+        {
+         "name": "Dark",
+         "children": [
+          {"name": "BetweennessCentrality", "size": 6},
+          {"name": "LinkDistance", "size": 0},
+          {"name": "MaxFlowMinCut", "size": 0},
+          {"name": "ShortestPaths", "size": 0},
+          {"name": "SpanningTree", "size": 0}
+         ]
+        },
+        {
+         "name": "Psychic",
+         "children": [
+          {"name": "BetweennessCentrality", "size": 10},
+          {"name": "LinkDistance", "size": 0},
+          {"name": "MaxFlowMinCut", "size": 0},
+          {"name": "ShortestPaths", "size": 0},
+          {"name": "SpanningTree", "size": 0}
+         ]
+        },
+        {
+         "name": "Bug",
+         "children": [
+          {"name": "BetweennessCentrality", "size": 10},
+          {"name": "LinkDistance", "size": 0},
+          {"name": "MaxFlowMinCut", "size": 0},
+          {"name": "ShortestPaths", "size": 0},
+          {"name": "SpanningTree", "size": 0}
+         ]
+        },
+        {
+         "name": "Rock",
+         "children": [
+          {"name": "BetweennessCentrality", "size": 11},
+          {"name": "LinkDistance", "size": 0},
+          {"name": "MaxFlowMinCut", "size": 0},
+          {"name": "ShortestPaths", "size": 0},
+          {"name": "SpanningTree", "size": 0}
+         ]
+        },
+        {
+         "name": "Steel",
+         "children": [
+          {"name": "BetweennessCentrality", "size": 6},
+          {"name": "LinkDistance", "size": 0},
+          {"name": "MaxFlowMinCut", "size": 0},
+          {"name": "ShortestPaths", "size": 0},
+          {"name": "SpanningTree", "size": 0}
+         ]
+        },
+        {
+         "name": "Dragon",
+         "children": [
+          {"name": "BetweennessCentrality", "size": 5},
+          {"name": "LinkDistance", "size": 0},
+          {"name": "MaxFlowMinCut", "size": 0},
+          {"name": "ShortestPaths", "size": 0},
+          {"name": "SpanningTree", "size": 0}
+         ]
+        },
+        {
+         "name": "Fairy",
+         "children": [
+          {"name": "BetweennessCentrality", "size": 6},
+          {"name": "LinkDistance", "size": 0},
+          {"name": "MaxFlowMinCut", "size": 0},
+          {"name": "ShortestPaths", "size": 0},
+          {"name": "SpanningTree", "size": 0}
+         ]
+        },
+        {
+         "name": "Ghost",
+         "children": [
+          {"name": "BetweennessCentrality", "size": 4},
+          {"name": "LinkDistance", "size": 0},
+          {"name": "MaxFlowMinCut", "size": 0},
+          {"name": "ShortestPaths", "size": 0},
+          {"name": "SpanningTree", "size": 0}
+         ]
+        }
+    ]
+  },
+  {
+   "name": "Third Generation",
+   "children": [
+    {
+      "name": "Normal",
+      "children": [
+       {"name": "AgglomerativeCluster", "size": 22},
+       {"name": "CommunityStructure", "size": 0},
+       {"name": "HierarchicalCluster", "size": 0},
+       {"name": "MergeEdge", "size": 0}
+      ]
+     },
+     {
+       "name": "Water",
+       "children": [
+        {"name": "AgglomerativeCluster", "size": 32},
+        {"name": "CommunityStructure", "size": 0},
+        {"name": "HierarchicalCluster", "size": 0},
+        {"name": "MergeEdge", "size": 0}
+       ]
+      },{
+       "name": "Grass",
+       "children": [
+        {"name": "AgglomerativeCluster", "size": 14},
+        {"name": "CommunityStructure", "size": 0},
+        {"name": "HierarchicalCluster", "size": 0},
+        {"name": "MergeEdge", "size": 0}
+       ]
+      },
+      {
+       "name": "Fire",
+       "children": [
+        {"name": "AgglomerativeCluster", "size": 13},
+        {"name": "CommunityStructure", "size": 0},
+        {"name": "HierarchicalCluster", "size": 0},
+        {"name": "MergeEdge", "size": 0}
+       ]
+      },
+      {
+       "name": "Electric",
+       "children": [
+        {"name": "AgglomerativeCluster", "size": 12},
+        {"name": "CommunityStructure", "size": 0},
+        {"name": "HierarchicalCluster", "size": 0},
+        {"name": "MergeEdge", "size": 0}
+       ]
+      },
+     {
+      "name": "Ice",
+      "children": [
+       {"name": "BetweennessCentrality", "size": 9},
+       {"name": "LinkDistance", "size": 0},
+       {"name": "MaxFlowMinCut", "size": 0},
+       {"name": "ShortestPaths", "size": 0},
+       {"name": "SpanningTree", "size": 0}
+      ]
+     },
+     {
+       "name": "Ground",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 14},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Flying",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 20},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Poison",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 33},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Fighting",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 9},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Dark",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 7},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Psychic",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 15},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Bug",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 12},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Rock",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 11},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Steel",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 6},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Dragon",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 5},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Fairy",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 6},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Ghost",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 4},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      }
+   ]
+  },
+  {
+   "name": "Fourth Generation",
+   "children": [
+    {
+      "name": "Normal",
+      "children": [
+       {"name": "AgglomerativeCluster", "size": 22},
+       {"name": "CommunityStructure", "size": 0},
+       {"name": "HierarchicalCluster", "size": 0},
+       {"name": "MergeEdge", "size": 0}
+      ]
+     },
+     {
+       "name": "Water",
+       "children": [
+        {"name": "AgglomerativeCluster", "size": 32},
+        {"name": "CommunityStructure", "size": 0},
+        {"name": "HierarchicalCluster", "size": 0},
+        {"name": "MergeEdge", "size": 0}
+       ]
+      },{
+       "name": "Grass",
+       "children": [
+        {"name": "AgglomerativeCluster", "size": 14},
+        {"name": "CommunityStructure", "size": 0},
+        {"name": "HierarchicalCluster", "size": 0},
+        {"name": "MergeEdge", "size": 0}
+       ]
+      },
+      {
+       "name": "Fire",
+       "children": [
+        {"name": "AgglomerativeCluster", "size": 13},
+        {"name": "CommunityStructure", "size": 0},
+        {"name": "HierarchicalCluster", "size": 0},
+        {"name": "MergeEdge", "size": 0}
+       ]
+      },
+      {
+       "name": "Electric",
+       "children": [
+        {"name": "AgglomerativeCluster", "size": 12},
+        {"name": "CommunityStructure", "size": 0},
+        {"name": "HierarchicalCluster", "size": 0},
+        {"name": "MergeEdge", "size": 0}
+       ]
+      },
+     {
+      "name": "Ice",
+      "children": [
+       {"name": "BetweennessCentrality", "size": 9},
+       {"name": "LinkDistance", "size": 0},
+       {"name": "MaxFlowMinCut", "size": 0},
+       {"name": "ShortestPaths", "size": 0},
+       {"name": "SpanningTree", "size": 0}
+      ]
+     },
+     {
+       "name": "Ground",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 14},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Flying",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 20},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Poison",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 33},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Fighting",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 9},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Dark",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 7},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Psychic",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 15},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Bug",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 12},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Rock",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 11},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Steel",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 6},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Dragon",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 5},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Fairy",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 6},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Ghost",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 4},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      }
+   ]
+  },
+  {
+   "name": "Fifth Generation",
+   "children": [
+    {
+      "name": "Normal",
+      "children": [
+       {"name": "AgglomerativeCluster", "size": 22},
+       {"name": "CommunityStructure", "size": 0},
+       {"name": "HierarchicalCluster", "size": 0},
+       {"name": "MergeEdge", "size": 0}
+      ]
+     },
+     {
+       "name": "Water",
+       "children": [
+        {"name": "AgglomerativeCluster", "size": 32},
+        {"name": "CommunityStructure", "size": 0},
+        {"name": "HierarchicalCluster", "size": 0},
+        {"name": "MergeEdge", "size": 0}
+       ]
+      },{
+       "name": "Grass",
+       "children": [
+        {"name": "AgglomerativeCluster", "size": 14},
+        {"name": "CommunityStructure", "size": 0},
+        {"name": "HierarchicalCluster", "size": 0},
+        {"name": "MergeEdge", "size": 0}
+       ]
+      },
+      {
+       "name": "Fire",
+       "children": [
+        {"name": "AgglomerativeCluster", "size": 13},
+        {"name": "CommunityStructure", "size": 0},
+        {"name": "HierarchicalCluster", "size": 0},
+        {"name": "MergeEdge", "size": 0}
+       ]
+      },
+      {
+       "name": "Electric",
+       "children": [
+        {"name": "AgglomerativeCluster", "size": 12},
+        {"name": "CommunityStructure", "size": 0},
+        {"name": "HierarchicalCluster", "size": 0},
+        {"name": "MergeEdge", "size": 0}
+       ]
+      },
+     {
+      "name": "Ice",
+      "children": [
+       {"name": "BetweennessCentrality", "size": 9},
+       {"name": "LinkDistance", "size": 0},
+       {"name": "MaxFlowMinCut", "size": 0},
+       {"name": "ShortestPaths", "size": 0},
+       {"name": "SpanningTree", "size": 0}
+      ]
+     },
+     {
+       "name": "Ground",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 14},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Flying",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 20},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Poison",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 33},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Fighting",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 9},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Dark",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 7},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Psychic",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 15},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Bug",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 12},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Rock",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 11},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Steel",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 6},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Dragon",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 5},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Fairy",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 6},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Ghost",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 4},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      }
+   ]
+  },
+  {
+   "name": "Sixth Generation",
+   "children": [
+    {
+      "name": "Normal",
+      "children": [
+       {"name": "AgglomerativeCluster", "size": 22},
+       {"name": "CommunityStructure", "size": 0},
+       {"name": "HierarchicalCluster", "size": 0},
+       {"name": "MergeEdge", "size": 0}
+      ]
+     },
+     {
+       "name": "Water",
+       "children": [
+        {"name": "AgglomerativeCluster", "size": 32},
+        {"name": "CommunityStructure", "size": 0},
+        {"name": "HierarchicalCluster", "size": 0},
+        {"name": "MergeEdge", "size": 0}
+       ]
+      },{
+       "name": "Grass",
+       "children": [
+        {"name": "AgglomerativeCluster", "size": 14},
+        {"name": "CommunityStructure", "size": 0},
+        {"name": "HierarchicalCluster", "size": 0},
+        {"name": "MergeEdge", "size": 0}
+       ]
+      },
+      {
+       "name": "Fire",
+       "children": [
+        {"name": "AgglomerativeCluster", "size": 13},
+        {"name": "CommunityStructure", "size": 0},
+        {"name": "HierarchicalCluster", "size": 0},
+        {"name": "MergeEdge", "size": 0}
+       ]
+      },
+      {
+       "name": "Electric",
+       "children": [
+        {"name": "AgglomerativeCluster", "size": 12},
+        {"name": "CommunityStructure", "size": 0},
+        {"name": "HierarchicalCluster", "size": 0},
+        {"name": "MergeEdge", "size": 0}
+       ]
+      },
+     {
+      "name": "Ice",
+      "children": [
+       {"name": "BetweennessCentrality", "size": 9},
+       {"name": "LinkDistance", "size": 0},
+       {"name": "MaxFlowMinCut", "size": 0},
+       {"name": "ShortestPaths", "size": 0},
+       {"name": "SpanningTree", "size": 0}
+      ]
+     },
+     {
+       "name": "Ground",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 14},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Flying",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 20},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Poison",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 33},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Fighting",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 9},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Dark",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 7},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Psychic",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 15},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Bug",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 12},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Rock",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 11},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Steel",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 6},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Dragon",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 5},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Fairy",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 6},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Ghost",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 4},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      }
+   ]
+  },
+  {
+   "name": "Seventh Generation",
+   "children": [
+    {
+      "name": "Normal",
+      "children": [
+       {"name": "AgglomerativeCluster", "size": 22},
+       {"name": "CommunityStructure", "size": 0},
+       {"name": "HierarchicalCluster", "size": 0},
+       {"name": "MergeEdge", "size": 0}
+      ]
+     },
+     {
+       "name": "Water",
+       "children": [
+        {"name": "AgglomerativeCluster", "size": 32},
+        {"name": "CommunityStructure", "size": 0},
+        {"name": "HierarchicalCluster", "size": 0},
+        {"name": "MergeEdge", "size": 0}
+       ]
+      },{
+       "name": "Grass",
+       "children": [
+        {"name": "AgglomerativeCluster", "size": 14},
+        {"name": "CommunityStructure", "size": 0},
+        {"name": "HierarchicalCluster", "size": 0},
+        {"name": "MergeEdge", "size": 0}
+       ]
+      },
+      {
+       "name": "Fire",
+       "children": [
+        {"name": "AgglomerativeCluster", "size": 13},
+        {"name": "CommunityStructure", "size": 0},
+        {"name": "HierarchicalCluster", "size": 0},
+        {"name": "MergeEdge", "size": 0}
+       ]
+      },
+      {
+       "name": "Electric",
+       "children": [
+        {"name": "AgglomerativeCluster", "size": 12},
+        {"name": "CommunityStructure", "size": 0},
+        {"name": "HierarchicalCluster", "size": 0},
+        {"name": "MergeEdge", "size": 0}
+       ]
+      },
+     {
+      "name": "Ice",
+      "children": [
+       {"name": "BetweennessCentrality", "size": 9},
+       {"name": "LinkDistance", "size": 0},
+       {"name": "MaxFlowMinCut", "size": 0},
+       {"name": "ShortestPaths", "size": 0},
+       {"name": "SpanningTree", "size": 0}
+      ]
+     },
+     {
+       "name": "Ground",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 14},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Flying",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 20},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Poison",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 33},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Fighting",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 9},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Dark",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 7},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Psychic",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 15},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Bug",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 12},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Rock",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 11},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Steel",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 6},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Dragon",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 5},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Fairy",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 6},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      },
+      {
+       "name": "Ghost",
+       "children": [
+        {"name": "BetweennessCentrality", "size": 4},
+        {"name": "LinkDistance", "size": 0},
+        {"name": "MaxFlowMinCut", "size": 0},
+        {"name": "ShortestPaths", "size": 0},
+        {"name": "SpanningTree", "size": 0}
+       ]
+      }
+   ]
+  }
+ ]
+}
